@@ -1,27 +1,31 @@
 # Arch Linux Dotfiles - Aquiles Setup 🏛️
 
-This repository contains my personal configurations for Arch Linux. The setup is focused on productivity and a custom minimalist aesthetic based on the **Aquiles** color palette (Grey & Blood Red).
+This repository contains my personal configurations for Arch Linux. The setup is focused on productivity and a custom minimalist aesthetic based on the **Aquiles** color palette (Grey, yellow and Blood Red).
 
 ## 🎨 Color Palette
 - **Background**: `#1A1815`
-- **Primary (Grey)**: `#938F85`
-- **Accent (Red)**: `#A6261B`
+- **Foreground**: `#EOC9A6`
+- **Primary (Red)**: `#A6261B`
+- **Secondary (yellow)**: `#FFB300`
+- **Dark gray**: `#484C54`
+- **Light gray**: `#8F96A6`
 
 ## 🖥️ Environment Details
 - **OS**: [Arch Linux](https://archlinux.org/)
-- **WM/DE**: [Ex: i3-gaps / Sway / KDE]
+- **WM/DE**: [i3wm](https://i3wm.org/)
 - **Terminal**: [Alacritty](https://alacritty.org/)
-- **Shell**: [zsh with Oh My Zsh]
-- **Editor**: [Neovim](https://neovim.io/) with custom **Aquiles** theme
-- **Bar**: [Polybar / Waybar]
+- **Shell**: [zsh with Oh My Zsh](https://ohmyz.sh/)
+- **Editor**: [vim](https://www.vim.org/) with custom **Aquiles** theme
+- **Bar**: [Polybar](https://github.com/polybar/polybar)
 
 ## 📸 Screenshots
-![Desktop Preview](link-para-sua-imagem.png)
-*The Aquiles theme in action.*
+![Desktop Preview](/prints/print01.png)
+![Desktop Preview](/prints/print02.png)
+![Desktop Preview](/prints/print03.png)
 
 ## ⚙️ Installation
 
 ### 1. Clone the repository
 ```bash
-git clone [https://github.com/YOUR_USERNAME/dotfiles.git](https://github.com/YOUR_USERNAME/dotfiles.git)
-cd dotfiles
+git clone [https://github.com/gabrieldev-1/my_linux_rice.git](https://github.com/gabrieldev-1/my_linux_rice.git)
+cd config
