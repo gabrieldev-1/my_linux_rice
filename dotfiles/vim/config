@@ -1,0 +1,40 @@
+" general settings
+set nocompatible
+syntax on
+filetype plugin indent on
+
+" appearance and navigation
+"
+set number
+set relativenumber
+set hlsearch
+set incsearch
+
+" tabulation and indexing
+set tabstop=4
+set shiftwidth=4
+set autoindent
+set smartindent
+set wrap
+
+" Others
+set mouse=a
+set encoding=utf-8
+
+" plugins
+call plug#begin("/home/genesis/.vim/plugged") 
+
+Plug 'scrooloose/nerdtree'
+Plug 'vim-airline/vim-airline'
+Plug 'morhetz/gruvbox'
+Plug 'neoclide/coc.nvim', {'branch': 'release'} 
+Plug 'tpope/vim-fugitive'
+
+call plug#end()
+
+" theme config
+set background=dark
+
+set termguicolors
+colorscheme aquiles
+
