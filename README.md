@@ -6,7 +6,7 @@ This repository contains my personal configurations for Arch Linux. The setup is
 - **Background**: `#1A1815`
 - **Foreground**: `#EOC9A6`
 - **Primary (Red)**: `#A6261B`
-- **Secondary (yellow)**: `#FFB300`
+- **Secondary (yellow)**: `#DAA652`
 - **Dark gray**: `#484C54`
 - **Light gray**: `#8F96A6`
 
