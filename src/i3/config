@@ -28,7 +28,7 @@ exec --no-startup-id dex --autostart --environment i3
 
 # xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
 # screen before suspend. Use loginctl lock-session to lock your screen.
-exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
+# exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 
 # NetworkManager is the most popular way to manage wireless networks on Linux,
 # and nm-applet is a desktop environment-independent system tray GUI for it.
@@ -115,16 +115,15 @@ bindsym $mod+a focus parent
 
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
-set $ws1 "1:I"
-set $ws2 "2:II"
-set $ws3 "3:III"
-set $ws4 "4:IV"
-set $ws5 "5:V"
-set $ws6 "6:VI"
-set $ws7 "7:VII"
-set $ws8 "8:VIII"
-set $ws9 "9:IX"
-set $ws10 "10:X"
+set $ws1 "1: 一"
+set $ws2 "2: 二"
+set $ws3 "3: 三"
+set $ws4 "4: 四"
+set $ws5 "5: 五"
+set $ws6 "6: 六"
+set $ws7 "7: 七"
+set $ws8 "8: 八"
+set $ws9 "9: 九"
 
 # switch to workspace
 bindsym $mod+1 workspace number $ws1
@@ -187,14 +186,14 @@ bindsym $mod+r mode "resize"
 # finds out, if available)
 
 # window
-client.focused #8B0000 #8B0000 #8B0000 #8B0000 
+client.focused #012340 #012340 #012340 #012340 
 client.unfocused #2C3539 #2C3539 #2C3539 #2C3539
 for_window [class="^.*"] border pixel 1
 gaps inner 10
 gaps outer 5
 
 # feh
-exec --no-startup-id feh --bg-fill /home/genesis/Downloads/wallpapers/campo_arvore.jpg &
+exec --no-startup-id feh --bg-fill /home/genesis/Downloads/wallpapers/japan.jpg &
 
 # picom
 exec --no-startup-id picom
@@ -202,14 +201,23 @@ exec --no-startup-id picom
 # polybar
 exec --no-startup-id ~/.config/polybar/launch.sh
 
-# flameshot
+# picom
+exec_always --no-startup-id picom -b
 
+# flameshot
 # Start Flameshot full screen (save to Pictures)
 bindsym $mod+z exec flameshot full
 
 # Start Flameshot delayed (3 seconds)
 bindsym Control+Print exec flameshot gui --delay 3
 
+# Desabled screen protect energy
+exec --no-startup-id xset s off
+exec --no-startup-id xset -dpms
+exec --no-startup-id xset s noblank
+
 # Copy to clipboard (requires D-Bus setup, see below)
 # bindsym Control+Shift+Print exec flameshot gui --clipboard
 
+# Iniciar o Fcitx5 no boot
+exec_always --no-startup-id fcitx5 -d
