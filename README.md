@@ -1,21 +1,32 @@
 # Arch Linux Dotfiles - Aquiles Setup 🏛️
 
-This repository contains my personal configurations for Arch Linux. The setup is focused on productivity and a custom minimalist aesthetic based on the **Aquiles** color palette (Grey, yellow and Blood Red).
+This repository contains my personal configurations for Arch Linux. The setup is focused on productivity and a custom minimalist aesthetic based on the **Solarized** color palette.
 
 ## 🎨 Color Palette
-- **Background**: `#1A1815`
-- **Foreground**: `#EOC9A6`
-- **Primary (Red)**: `#A6261B`
-- **Secondary (yellow)**: `#DAA652`
-- **Dark gray**: `#484C54`
-- **Light gray**: `#8F96A6`
+
+- base03:    #002b36;
+- base02:    #073642;
+- base01:    #586e75;
+- base00:    #657b83;
+- base0:     #839496;
+- base1:     #93a1a1;
+- base2:     #eee8d5;
+- base3:     #fdf6e3;
+- yellow:    #b58900;
+- orange:    #cb4b16;
+- red:       #dc322f;
+- magenta:   #d33682;
+- violet:    #6c71c4;
+- blue:      #268bd2;
+- cyan:      #2aa198;
+- green:     #859900;
 
 ## 🖥️ Environment Details
 - **OS**: [Arch Linux](https://archlinux.org/)
 - **WM/DE**: [i3wm](https://i3wm.org/)
 - **Terminal**: [Alacritty](https://alacritty.org/)
 - **Shell**: [zsh with Oh My Zsh](https://ohmyz.sh/)
-- **Editor**: [vim](https://www.vim.org/) with custom **Aquiles** theme
+- **Editor**: [neovim](https://neovim.io/) with custom **Solarized-osaka** theme
 - **Bar**: [Polybar](https://github.com/polybar/polybar)
 
 ## 📸 Screenshots
