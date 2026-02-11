@@ -1,4 +1,4 @@
-# Arch Linux Dotfiles - Aquiles Setup 🏛️
+# Arch Linux Dotfiles - solarized Setup ☯️
 
 This repository contains my personal configurations for Arch Linux. The setup is focused on productivity and a custom minimalist aesthetic based on the **Solarized** color palette.
 
